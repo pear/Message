@@ -1,0 +1,28 @@
+{
+    "authors": [
+        {
+            "email": "jmcastagnetto@php.net",
+            "name": "Jesus M. Castagnetto",
+            "role": "Lead"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Message": "./"
+        }
+    },
+    "description": "More info available on: http://pear.php.net/package/Message",
+    "include-path": [
+        "./"
+    ],
+    "license": "PHP",
+    "name": "pear/message",
+    "support": {
+        "issues": "http:///bugs/search.php?cmd=display&package_name[]=Message",
+        "source": "https://github.com/pear/Message"
+    },
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    }
+}
